@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamer Login</title>
+    <title>Valorant Login</title>
     <style>
         /* Basic Reset and Body Styling */
         * {
@@ -11,6 +11,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: 'Arial', sans-serif;
             color: #fff;
@@ -18,8 +19,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: url('https://www.wallpapertip.com/wmimgs/18-185111_gaming-wallpaper-hd-gamer-wallpapers-hd.jpg') no-repeat center center fixed; 
-            /* Replace with your desired gamer background image URL */
+            background: url('https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg') no-repeat center center fixed; /* Valorant background */
             background-size: cover;
             background-attachment: fixed;
         }
@@ -27,20 +27,20 @@
         .login-container {
             width: 100%;
             max-width: 450px;
-            background: rgba(0, 0, 0, 0.75);
+            background: rgba(0, 0, 0, 0.7); /* Darker background to contrast */
             padding: 40px;
             border-radius: 10px;
             text-align: center;
-            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
         }
 
         h1 {
-            color: #00ff00;
+            color: #ff4654; /* Valorant red */
             font-size: 40px;
             font-weight: 600;
             margin-bottom: 30px;
             letter-spacing: 2px;
-            text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
         }
 
         .input-field {
@@ -52,20 +52,20 @@
             color: #fff;
             font-size: 18px;
             border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+            box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
             transition: all 0.3s ease;
         }
 
         .input-field:focus {
             outline: none;
-            border-color: #00ff00;
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            border-color: #ff4654; /* Valorant red */
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
         }
 
         .login-btn {
             width: 100%;
             padding: 12px;
-            background-color: #00ff00;
+            background-color: #ff4654; /* Valorant red */
             color: #111;
             font-size: 20px;
             border: none;
@@ -73,17 +73,17 @@
             border-radius: 8px;
             margin-top: 20px;
             transition: all 0.3s ease;
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
         }
 
         .login-btn:hover {
-            background-color: #00cc00;
-            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+            background-color: #ff2d39;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
         }
 
         .login-btn:active {
-            background-color: #009900;
-            box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+            background-color: #e11b28;
+            box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
         }
 
         .footer {
@@ -97,7 +97,7 @@
         }
 
         .footer a {
-            color: #00ff00;
+            color: #ff4654;
             text-decoration: none;
         }
 
@@ -125,20 +125,20 @@
 </head>
 <body>
     <div class="login-container">
-        <h1>Welcome to GamerZone</h1>
-        <p style="font-size: 18px; color: #aaa; margin-bottom: 30px;">Please log in to continue your adventure.</p>
+        <h1>Welcome to Valorant</h1>
+        <p style="font-size: 18px; color: #aaa; margin-bottom: 30px;">Please log in to continue your mission.</p>
         <form id="loginForm">
             <input type="text" id="username" class="input-field" placeholder="Username" required><br>
             <input type="password" id="password" class="input-field" placeholder="Password" required><br>
             <button type="submit" class="login-btn pulse-btn">Login</button>
         </form>
         <div style="margin-top: 15px;">
-            <p style="color: #bbb; font-size: 16px;">Don't have an account? <a href="#" style="color: #00ff00;">Sign up here</a></p>
+            <p style="color: #bbb; font-size: 16px;">Don't have an account? <a href="#" style="color: #ff4654;">Sign up here</a></p>
         </div>
     </div>
 
     <div class="footer">
-        <p>&copy; 2025 GamerZone. All Rights Reserved.</p>
+        <p>&copy; 2025 Valorant. All Rights Reserved.</p>
     </div>
 
     <script>
